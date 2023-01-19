@@ -19,3 +19,13 @@ This directory consist of a main.rs which is created in order to Practice differ
   <li>Datatype should be present inorder to use it as Argument</li>
   <li>If there is some sort of returning value inside scope then it needs to be defined ( -> DataType )</li>
 <ul>
+
+<h2>custom_input</h1>
+This directory consist of a main.rs file and inout_dir directory which holds mod. Mod is basically used inorder to break the large chunks of code into smaller piesces. 
+<em>Things to know: </em>
+<ul>
+  <li>We define mod using mod keyword & to use it in different file we need to assign pub keywords which means public.</li>
+  <li>We can use the mod by using mod::(directory_name) in the main file.</li>
+  <li>A mod can have many functions of other mod inside it so we access function by using <code> directory_name::mod_name::function </code></li>
+  <li>Mod is very useful as it helps to main piece of code, crate and mod are similar but different at the same times.</li>
+<ul>
