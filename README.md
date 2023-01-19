@@ -11,7 +11,7 @@ This Directory consist of a main.rs which is created in order to Practice Variab
   <li>Datatype should be defined after the variable name and colon. Example <code>let intvalue : i32 </code> for integer and f64 for float.</li>
 </ul>
 
-<h2>b_functions</h1>
+<h2>b_functions</h2>
 This directory consist of a main.rs which is created in order to Practice different sort of rules and how we define and use function. 
 <em>Things to know: </em>
 <ul>
@@ -20,7 +20,7 @@ This directory consist of a main.rs which is created in order to Practice differ
   <li>If there is some sort of returning value inside scope then it needs to be defined ( -> DataType )</li>
 <ul>
 
-<h2>custom_input</h1>
+<h2>custom_input</h2>
 This directory consist of a main.rs file and inout_dir directory which holds mod. Mod is basically used inorder to break the large chunks of code into smaller piesces. 
 <em>Things to know: </em>
 <ul>
