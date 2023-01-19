@@ -18,7 +18,7 @@ This directory consist of a main.rs which is created in order to Practice differ
   <li>We define function with keyword fn </li>
   <li>Datatype should be present inorder to use it as Argument</li>
   <li>If there is some sort of returning value inside scope then it needs to be defined ( -> DataType )</li>
-<ul>
+</ul>
 
 <h2>custom_input</h2>
 This directory consist of a main.rs file and inout_dir directory which holds mod. Mod is basically used inorder to break the large chunks of code into smaller piesces. 
