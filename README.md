@@ -20,6 +20,17 @@ This directory consist of a main.rs which is created in order to Practice differ
   <li>If there is some sort of returning value inside scope then it needs to be defined ( -> DataType )</li>
 </ul>
 
+ <h2>std_input_out</h2>
+This directory consist of a main.rs file which is created inorder to practice the crate (library) named of std::io which basically helps to input and output in the program.
+<em>Things to know: </em>
+<ul>
+<li><code>use std::io;</code> is the crate which helps us to input and output the data in the porgram in RUST</li>
+<li>It accepts the value in the String format therefore we need to parse to integer if we want integer as an input </li>
+<li><code>After using <code>std::io</code>, we use io::stdin().read_line(&mut variable_name) in order to input a value and store in the variable name and variable_name should be string in the first place </li>
+<li>Here, <code> .expect("Message, if error occurs"); </code> can be written after <em>read_line(&mut variable_name) in order to handle error for unusual input value </li>
+<li>Like that, for integer we have tp trim() and then parse() and store it into i32,i62 typed variables. </li>
+</ul>
+
 <h2>custom_input</h2>
 This directory consist of a main.rs file and inout_dir directory which holds mod. Mod is basically used inorder to break the large chunks of code into smaller piesces. 
 <em>Things to know: </em>
@@ -28,4 +39,6 @@ This directory consist of a main.rs file and inout_dir directory which holds mod
   <li>We can use the mod by using mod::(directory_name) in the main file.</li>
   <li>A mod can have many functions of other mod inside it so we access function by using <code> directory_name::mod_name::function </code></li>
   <li>Mod is very useful as it helps to main piece of code, crate and mod are similar but different at the same times.</li>
-<ul>
+  <li>This program is basically created inorder to simplfy the <code>std::io::stdin().readline()</code> to take and conver value into <code>int</code>   since it takes String only. </li>
+</ul>
+
