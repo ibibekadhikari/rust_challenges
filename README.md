@@ -26,8 +26,8 @@ This directory consist of a main.rs file which is created inorder to practice th
 <ul>
 <li><code>use std::io;</code> is the crate which helps us to input and output the data in the porgram in RUST</li>
 <li>It accepts the value in the String format therefore we need to parse to integer if we want integer as an input </li>
-<li><code>After using <code>std::io</code>, we use io::stdin().read_line(&mut variable_name) in order to input a value and store in the variable name and variable_name should be string in the first place </li>
-<li>Here, <code> .expect("Message, if error occurs"); </code> can be written after <em>read_line(&mut variable_name) in order to handle error for unusual input value </li>
+<li><code>After using <code>std::io</code>, we use io::stdin().read_line(&mut variable_name) in order to input a value and store in the variable name and var_name should be string in the first place </li>
+<li>Here, <code> .expect("Message, if error occurs"); </code> can be written after <em>read_line(&mut variable_name) </em> in order to handle error for unusual input value </li>
 <li>Like that, for integer we have tp trim() and then parse() and store it into i32,i62 typed variables. </li>
 </ul>
 
