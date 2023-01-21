@@ -41,4 +41,4 @@ This directory consist of a main.rs file and inout_dir directory which holds mod
   <li>Mod is very useful as it helps to main piece of code, crate and mod are similar but different at the same times.</li>
   <li>This program is basically created inorder to simplfy the <code>std::io::stdin().readline()</code> to take and conver value into <code>int</code>   since it takes String only. </li>
 </ul>
-
+<!--About macros --!>
