@@ -42,4 +42,3 @@ This directory consist of a main.rs file and inout_dir directory which holds mod
   <li>This program is basically created inorder to simplfy the <code>std::io::stdin().readline()</code> to take and conver value into <code>int</code>   since it takes String only. </li>
 </ul>
 <!--About macros --!>
-a
